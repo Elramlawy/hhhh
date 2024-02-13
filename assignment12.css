@@ -1,0 +1,94 @@
+.layout{
+    background-color: rgba(207, 21, 21, .4);
+    height: 100vh;
+    width: 100%;
+    z-index: 2;
+    position: absolute;
+}
+aside{
+    background-color: black;
+    z-index: 3;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+}
+
+aside .home{
+    padding-top: 90px;
+}
+aside a{
+    list-style: none;
+    text-decoration: none;
+}
+aside i{
+    margin-left: 250px;
+    margin-top: 20px;
+}
+.z{
+    z-index: 1;
+}
+.text{
+    height: 100vh;
+}
+.text h2{
+    z-index: 3;
+    left: 50%;
+    top: 40%;
+    bottom: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 50px;
+}
+.text .open{
+    z-index: 3;
+    left: 30%;
+    top: 60%;
+    bottom: 50%;
+    height: 70px;
+    color: #000;
+    transform: translateX(-50%);
+    font-size: 40px;
+    cursor: pointer;
+}
+.text p{
+    color: white;
+    font-weight: bold;
+    z-index: 3;
+    left: 50%;
+    top: 50%;
+    bottom: 50%;
+    transform: translateX(-50%);
+    font-size: larger;
+    
+}
+p,h2,h3{
+    cursor: pointer;
+}
+.signer{
+    background-color: #E68285;
+}
+.page3{
+    
+    background-image: url(images/image.jpg);
+    box-sizing: content-box;
+}
+.layout1{
+    background-color: rgba(207, 21, 21, .4);
+    height: 100%;
+    width: 100%;
+    
+    position: absolute;
+}
+.hove i:hover{
+    background-color: red;
+}
+.last{
+    height: 150vh;
+    padding-top: 200px;
+    margin-top: 200;
+    
+}
+#duration{
+    height:300px ;
+    width: 50%;
+}
